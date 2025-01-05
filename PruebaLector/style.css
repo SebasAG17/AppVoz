@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contendor-lector {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cont-escrito {
+    margin: 20px;
+}
+
+.texto-contex:nth-child(1) {
+    font-weight: bold;
+}
+
+textarea {
+    width: 80%;
+    margin: 100px;
+}
+textarea::placeholder { 
+    text-align: center;
+}
+
+.contenedor-botones>button {
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 60px;
+}
+
+.contenedor-botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
